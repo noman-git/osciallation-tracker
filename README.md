@@ -1,5 +1,3 @@
-Here’s a full draft of the README, including placeholders for images in the inference and comparison sections:
-
 ---
 
 # Oscillation Tracker
