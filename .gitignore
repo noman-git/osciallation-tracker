@@ -1,0 +1,66 @@
+# Virtual environment
+venv/
+
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.cosine
+
+# Dependencies
+node_modules/
+env/
+.env
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite
+db.sqlite
+
+# Output files
+*.pyc
+*.pyo
+__pycache__/
+*.pyc
+*.csv
+
+# Local development configuration
+instance/
+
+# Flask debugging files
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Models
+graphsage_model*/
+
+# Mac finder files
+.DS_Store
+
+# Adding stuff specific to this project
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.txt
+
+# Exlude these
+!results/**/*.png
+!data_gen/crash_test/**/*.png

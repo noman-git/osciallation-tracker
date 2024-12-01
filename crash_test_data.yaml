@@ -1,0 +1,6 @@
+
+path: crashtest_dataset
+train: images/train
+val: images/val
+nc: 1  # Number of classes
+names: ['crash_test_sign']  # List of class names
