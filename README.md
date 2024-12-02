@@ -5,7 +5,8 @@
 ## Overview
 
 The **Oscillation Tracker** project leverages computer vision techniques to analyze oscillatory motion captured in videos. It uses a fine-tuned YOLO model to track a crash test sign and compares the extracted motion data with experimental apparatus measurements.
-This project can be used to create synthetic data and then train finetune yolo to recognize any relatively simple objects. Just put raw images in the backgrounds dir and start the scripts one by one.
+This project can be used to create synthetic data and then train finetune yolo to recognize any relatively simple objects. Just put raw images in the backgrounds dir and your object in separate dir (we used crash_test_sign) and start the data_gen.py and train_yolo one by one.
+Of course you will have to edit the yaml file and train script for your specific object name etc. But that is trivial.
 
 ---
 
